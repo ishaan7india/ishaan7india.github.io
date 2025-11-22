@@ -34,7 +34,7 @@ body, html {
 .theme-white-gold {
   --bg-primary: #ffffff;
   --bg-secondary: #f8f9fa;
-  --bg-chrome: #f5f5f5;
+  --bg-chrome: rgba(245, 245, 245, 0.95);
   --text-primary: #1a1a1a;
   --text-secondary: #666666;
   --accent: #d4af37;
@@ -46,7 +46,7 @@ body, html {
 .theme-black-gold {
   --bg-primary: #1a1a1a;
   --bg-secondary: #242424;
-  --bg-chrome: #2d2d2d;
+  --bg-chrome: rgba(45, 45, 45, 0.95);
   --text-primary: #ffffff;
   --text-secondary: #b0b0b0;
   --accent: #d4af37;
@@ -58,7 +58,7 @@ body, html {
 .theme-tech-dark {
   --bg-primary: #0a0e27;
   --bg-secondary: #1a1f3a;
-  --bg-chrome: #151938;
+  --bg-chrome: rgba(21, 25, 56, 0.95);
   --text-primary: #e0e7ff;
   --text-secondary: #94a3b8;
   --accent: #00d4ff;
@@ -70,7 +70,7 @@ body, html {
 .theme-space-dark {
   --bg-primary: #0f0c29;
   --bg-secondary: #1a1635;
-  --bg-chrome: #24243e;
+  --bg-chrome: rgba(36, 36, 62, 0.95);
   --text-primary: #f0e6ff;
   --text-secondary: #b8a7d9;
   --accent: #9d4edd;
@@ -82,7 +82,7 @@ body, html {
 .theme-eco-green {
   --bg-primary: #f0fdf4;
   --bg-secondary: #dcfce7;
-  --bg-chrome: #bbf7d0;
+  --bg-chrome: rgba(187, 247, 208, 0.95);
   --text-primary: #14532d;
   --text-secondary: #166534;
   --accent: #22c55e;
