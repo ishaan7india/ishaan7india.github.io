@@ -559,10 +559,19 @@ body, html {
 /* Dialog Styles */
 .settings-dialog {
   max-width: 600px;
-  background: var(--bg-chrome);
+  background: var(--bg-chrome) !important;
   color: var(--text-primary);
-  opacity: 0.95;
   backdrop-filter: blur(12px);
+}
+
+/* Ensure all dialogs have proper opacity */
+[role="dialog"] {
+  background: var(--bg-chrome) !important;
+}
+
+/* Dialog overlay with better visibility */
+[data-radix-popper-content-wrapper] {
+  background: rgba(0, 0, 0, 0.5);
 }
 
 .settings-content {
