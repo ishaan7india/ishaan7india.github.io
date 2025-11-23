@@ -21,9 +21,7 @@ const BACKEND_URL = process.env.REACT_APP_BACKEND_URL;
 const API = `${BACKEND_URL}/api`;
 
 function App() {
-  const [currentUser, setCurrentUser] = useState(null);
-  const [showLogin, setShowLogin] = useState(true);
-  const [username, setUsername] = useState('');
+  const [currentUser, setCurrentUser] = useState('Guest');  const [showLogin, setShowLogin] = useState(false);  const [username, setUsername] = useState('');
   
   // Browser state
   const [tabs, setTabs] = useState([{ id: 1, url: 'https://www.google.com', title: 'New Tab', loading: false }]);
